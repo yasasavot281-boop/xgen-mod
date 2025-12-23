@@ -1,18 +1,13 @@
 {
   "schemaVersion": 1,
-  "id": "xgen-antidote",
+  "id": "xgen-xray",
   "version": "1.0.0",
-  "name": "X-GEN",
+  "name": "X-Gen X-Ray by Tragg",
   "authors": ["Tragg"],
-  "contact": {},
-  "license": "MIT",
-  "environment": "*",
   "entrypoints": {
     "main": ["com.example.ExampleMod"]
   },
-  "mixins": [
-    "xgen.mixins.json"
-  ],
+  "mixins": ["xgen.mixins.json"],
   "depends": {
     "fabricloader": ">=0.16.0",
     "minecraft": "~1.21.4",
