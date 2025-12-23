@@ -1,41 +1,30 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
-	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"id": "xgen-antidote",
+	"version": "1.0.0",
+	"name": "X-GEN Anti-Syndrome",
+	"description": "X-Ray Mod for Earth-8847",
 	"authors": [
-		"Me!"
+		"Tragg"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://fabricmc.net/"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/modid/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"com.example.ExampleMod"
-		],
-		"client": [
-			"com.example.ExampleModClient"
 		]
 	},
 	"mixins": [
-    "xgen.mixins.json"
-  ]
-			"config": "modid.client.mixins.json",
-			"environment": "client"
-		}
+		"xgen.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.18.2",
-		"minecraft": "~1.21.11",
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.4",
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
