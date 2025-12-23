@@ -1,30 +1,21 @@
 {
-	"schemaVersion": 1,
-	"id": "xgen-antidote",
-	"version": "1.0.0",
-	"name": "X-GEN Anti-Syndrome",
-	"description": "X-Ray Mod for Earth-8847",
-	"authors": [
-		"Tragg"
-	],
-	"contact": {
-		"homepage": "https://fabricmc.net/"
-	},
-	"license": "MIT",
-	"icon": "assets/modid/icon.png",
-	"environment": "*",
-	"entrypoints": {
-		"main": [
-			"com.example.ExampleMod"
-		]
-	},
-	"mixins": [
-		"xgen.mixins.json"
-	],
-	"depends": {
-		"fabricloader": ">=0.16.0",
-		"minecraft": "~1.21.4",
-		"java": ">=21",
-		"fabric-api": "*"
-	}
+  "schemaVersion": 1,
+  "id": "xgen-antidote",
+  "version": "1.0.0",
+  "name": "X-GEN",
+  "authors": ["Tragg"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.example.ExampleMod"]
+  },
+  "mixins": [
+    "xgen.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21"
+  }
 }
