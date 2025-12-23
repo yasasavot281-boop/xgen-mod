@@ -23,8 +23,8 @@
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
-		{
+    "xgen.mixins.json"
+  ]
 			"config": "modid.client.mixins.json",
 			"environment": "client"
 		}
